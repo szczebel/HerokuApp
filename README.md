@@ -1,7 +1,7 @@
 skeleton rest webapp for heroku.com
 
-- from intelliJ: can be run as a regular webapp, e.g. with JettyRunner plugin.
-However you will need to specify an env variable to make it use H2 when running locally.
+- locally: can be run as a regular webapp, e.g. with JettyRunner plugin in IntelliJ.
+However you will need to specify an env variable (datasource_prefix=h2) to make it use H2 when running locally.
 See persistence.xml, and how xxx-datasource.xml is imported.
 
 - deployment to heroku is done using Heroku Maven Plugin.
