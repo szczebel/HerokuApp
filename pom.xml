@@ -17,6 +17,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>1.0.0</version>
                 <configuration>
+                    <!-- name of your existing application on heroku.com -->
                     <appName>aszcz</appName>
                 </configuration>
             </plugin>
